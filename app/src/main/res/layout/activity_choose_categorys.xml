@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.flue_trainer.ChooseCategorysActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/chooseCategorys" />
+
+            <LinearLayout
+                android:id="@+id/categoryCheckBoxListRow1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxAtemschutz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryAtemschutz" />
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxBelastung"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryBelastung" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/categoryCheckBoxListRow2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxBSD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryBrandsicherheitsdienst" />
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxBrennen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryBrennen" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/categoryCheckBoxListRow3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxersteHilfe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryErsteHilfe" />
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxFahrzeugkunde"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryFahrzeugkunde" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/categoryCheckBoxListRow4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxGefahrstoffe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryGefahrstoffe" />
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxGeraeteTH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryGeraeteTh" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/categoryCheckBoxListRow5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxHygiene"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryHygiene" />
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxKatastrophenschutz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryKatastrophenschutz" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/categoryCheckBoxListRow6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxLoescheinsatz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryLoescheinsatz" />
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxLoeschen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryLoeschen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/categoryCheckBoxListRow7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxPsa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryPSA" />
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxRechtsgrundlagen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryRechtsgrundlagen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/categoryCheckBoxListRow8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxRettung"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryRettung" />
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxRettungsgeraete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryRettungsgeraete" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/categoryCheckBoxListRow9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxSonstigeGeraete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categorySonstigeGeraete" />
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxSprechfunk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categorySprechfunk" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/categoryCheckBoxListRow10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxTh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryTechnischeHilfeleistung" />
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxUvv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryUVV" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/categoryCheckBoxListRow11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxGefahren"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryVerhaltenBeiGefahr" />
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxWasserfoerderung"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryWasserfoerderung" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/categoryCheckBoxListRow12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxZivilschutz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryZivilschutz" />
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxBronze"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryBronze"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/categoryCheckBoxListRow13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxSilber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categorySilber" />
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBoxGold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/categoryGold"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnGrundbogen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/categoryGrundbogen" />
+
+                    <Button
+                        android:id="@+id/btnBronze"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/categoryBronze" />
+
+                    <Button
+                        android:id="@+id/btnSilber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/categorySilber" />
+
+                    <Button
+                        android:id="@+id/btnGold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/categoryGold" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/categroysChoosenButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@android:string/ok" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>

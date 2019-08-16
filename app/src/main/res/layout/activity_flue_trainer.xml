@@ -1,0 +1,87 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alwaysDrawnWithCache="false"
+    android:background="@android:color/holo_red_dark"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    tools:context="com.example.flue_trainer.FlueTrainer">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="42sp"
+            android:textStyle="normal|bold"
+            tools:text="@string/app_name" />
+
+        <ToggleButton
+            android:id="@+id/toggleButtonErrors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="ToggleButton"
+            android:textOff="@string/hideErrors"
+            android:textOn="@string/showErrors" />
+
+        <TextView
+            android:id="@+id/textViewNumberOfQuestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/seekBarNumberOfQuestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/chooseCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/chooseCategorys"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/start"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
