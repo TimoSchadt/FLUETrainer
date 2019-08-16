@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 
 /**
- * Created by timo on 26.12.17.
+ * Created by Timo Schadt on 26.12.17.
  */
 
 public class Questionary {
